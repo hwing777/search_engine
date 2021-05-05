@@ -157,6 +157,8 @@ There are two steps:
 
 1. Take a screenshot of an interesting search result.
    Add the screenshot to your git repo, and modify the `<img>` tag below to point to the screenshot.
+   
+   I thought this result was so funny! I found it while searching for 'hello'.
 
    <img src='hw13_search_result.png' />
 
