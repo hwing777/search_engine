@@ -148,9 +148,11 @@ There are two steps:
 
     1. This query shows the hostnames that you have downloaded the most webpages from:
        ```
-       select * from metahtml_rollup_host order by hostpath desc limit 100;
+       select * from metahtml_rollup_host2 order by hostpath desc limit 100;
        ```
        <img src='submission_iii.png' />
+       This shows the top 5 results of this query, from the 5 urls loaded by Part 2b.
+       The list of the rest of the results (loaded from Part 2a) were too big to include.
 
 1. Take a screenshot of an interesting search result.
    Add the screenshot to your git repo, and modify the `<img>` tag below to point to the screenshot.
