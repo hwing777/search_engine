@@ -151,6 +151,7 @@ There are two steps:
        select * from metahtml_rollup_host2 order by hostpath desc limit 100;
        ```
        <img src='submission_iii.png' />
+       
        This shows the top 5 results of this query, from the 5 urls loaded by Part 2b.
        The list of the rest of the results (loaded from Part 2a) were too big to include.
 
