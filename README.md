@@ -138,22 +138,22 @@ There are two steps:
        ```
        select count(*) from metahtml;
        ```
-       <img src='submission_i.png' />
+       <img src='submission_1.png' />
 
     1. This query shows the number of webpages loaded / hour:
        ```
        select * from metahtml_rollup_insert order by insert_hour desc limit 100;
        ```
-       <img src='submission_ii.png' />
+       <img src='submission_2.png' />
 
     1. This query shows the hostnames that you have downloaded the most webpages from:
        ```
        select * from metahtml_rollup_host2 order by hostpath desc limit 100;
        ```
-       <img src='submission_iii.png' />
+       <img src='submission_3_1.png' />
+       <img src='submission_3_2.png' />
        
-       This shows the top 5 results of this query, from the 5 urls loaded by Part 2b.
-       The list of the rest of the results (loaded from Part 2a) were too big to include.
+       The results would not fit into a single screenshot, and are include din 2 images.
 
 1. Take a screenshot of an interesting search result.
    Add the screenshot to your git repo, and modify the `<img>` tag below to point to the screenshot.
